@@ -10,7 +10,7 @@ const NavItemLink = React.createClass({
 
   render() {
     return (
-      <NavItem {...this.getLinkProps()} ref="navItem">
+      <NavItem {...this.getLinkProps()}>
         {this.props.children}
       </NavItem>
     );
